@@ -2,10 +2,16 @@ Class {
 	#name : #MyClass,
 	#superclass : #Object,
 	#instVars : [
-		'nombre'
+		'nombre',
+		'apellido'
 	],
 	#category : #prueba
 }
+
+{ #category : #accessing }
+MyClass >> apellido: unApellido [
+	apellido := unApellido 
+]
 
 { #category : #accessing }
 MyClass >> nombre: unNombre [
