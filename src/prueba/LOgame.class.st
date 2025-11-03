@@ -27,7 +27,7 @@ width := sampleCell width.
 height := sampleCell height.
 self bounds: (5 @ 5 extent: (width * n) @ (height * n) + (2 * self
 borderWidth)).
-cells := Matrix new: n tabulate: [ :i :j | self newCellAt: i at: j ]
+cells := Matriz new: n tabulate: [ :i :j | self newCellAt: i at: j ].
 ]
 
 { #category : #initialize }
